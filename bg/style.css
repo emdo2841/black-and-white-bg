@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ddd;
+  padding: 12px 22px;
+  transition: background-color 0.3s, padding 0.3s;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+}
+p{margin-top: 20PX;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+}
